@@ -50,7 +50,7 @@ button {display: block; border: none; outline: none;}
 .contenido,
 .texto-agregado {
     max-width: 100%;
-    width: 100%;j
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
