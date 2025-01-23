@@ -67,7 +67,7 @@ button {display: block; border: none; outline: none;}
 
 .txt-area{
     display: block;
-    width: 50%;
+    width: 90%;
     min-width: 250px;
     margin: .5em auto;
     border-radius: .5rem;
