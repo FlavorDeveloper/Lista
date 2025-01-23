@@ -1,0 +1,129 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* root */
+:root{
+    font-size: 62.5%;
+    --background-color:linear-gradient(120deg, #fdfbfb 0%, #ebedee8c 100%);
+}
+
+/* Global styling */
+body{
+    min-height: 100vh;
+    font-family: "Nunito", serif;
+    background-image: url(svg1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 3.2rem; }
+h3 { font-size: 2.8rem; }
+h4 { font-size: 2.4rem; }
+h5 { font-size: 2rem; }
+h6 { font-size: 1.6rem; }
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a {text-decoration: none;}
+
+textarea{resize: none; overflow: auto;}
+
+button {display: block; border: none; outline: none;}
+
+.contenido,
+.texto-agregado {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.titulo{
+    text-align: center;
+    padding: 2rem;
+    background-image: var(--background-color);
+    color: #353535;
+    text-transform: uppercase;
+    font-size: clamp(1.6rem, 1.096rem + 2.017vw, 4rem);
+}
+
+.txt-area{
+    display: block;
+    width: 50%;
+    min-width: 250px;
+    margin: .5em auto;
+    border-radius: .5rem;
+    min-height: 20rem;
+    background-color: rgba(240, 248, 255, 0.904);
+    box-shadow: 0 0 1rem grey;
+    outline: none;
+    font-family: "Nunito", serif;
+}
+
+.txt-area, ::placeholder{font-size: 1.6rem; font-weight: 100; padding: .5rem;}
+
+.btn-agregar{
+    margin: 2em auto;
+    background-color: #BDE0FE;
+    font-size: clamp(1.6rem, 1.306rem + 1.176vw, 3rem);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .5em 2rem;
+    color: #353535;
+    font-family: "Nunito", serif;
+}
+
+.btn-agregar:hover{background-color: #CDB4DB;}
+.btn-reset:hover{background-color: #CDB4DB;}
+
+.texto-agregado{
+    background-image: var(--background-color);
+    overflow: auto;
+}
+
+.btn-reset{
+    margin: 2em auto;
+    background-color: #BDE0FE;
+    font-size: clamp(1.6rem, 1.306rem + 1.176vw, 3rem);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .5em 2rem;
+    color: #353535;
+    font-family: "Nunito", serif;
+}
+
+.footer{
+    width: 100%;
+    background-color: #bde0fe6c;
+}
+
+.footer-text,
+.brand {
+    font-size: clamp(1rem, 0.79rem + 0.84vw, 2rem);
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
